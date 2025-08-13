@@ -1,0 +1,16 @@
+# env / IDE / bytecode
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+
+# keep data & outputs out of git
+Data/
+output/
+notebooks/.ipynb_checkpoints/
+notebooks/*.csv
+
+# keep this JSON if you use it
+!notebooks/
+!notebooks/kaomoji_to_text.json
